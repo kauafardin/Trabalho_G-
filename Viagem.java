@@ -146,7 +146,7 @@ public class Viagem {
             viagens.add(novaViagem);
         } catch (InputMismatchException e) {
             System.out.println("Erro: Entrada inválida. Por favor, digite valores corretos.");
-            scanner.nextLine(); // Limpa a entrada
+            scanner.nextLine();
         }
     }
 }
