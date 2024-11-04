@@ -63,11 +63,4 @@ public class GerenciamentoFrota {
             }
         }
     }
-
-
-    public static void main(String[] args) {
-        GerenciamentoFrota gerenciamentoFrota = new GerenciamentoFrota();
-        gerenciamentoFrota.interagirComUsuario(); // Chama o método para iniciar a interação
-    }
-
 }
